@@ -18,4 +18,4 @@ Simply clone this repo, then from the repo's root directory, set up a developmen
 python3 -m http.server
 ```
 
-A message will be printed `Serving HTTP on 0.0.0.0 port xxxx`. Enjoy!
+A message will be printed `Serving HTTP on 0.0.0.0 port 8000`. You can specify a port by providing an integer argument after `http.server`, if the 8000 port is already in use. Enjoy!
