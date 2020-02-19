@@ -1,0 +1,92 @@
+/* TODO: Dynamically set values to client's web browser... Probably will require react */
+
+#sprite {
+    /* background spritesheet; currently consists of 42 frames arranged in 6-by-7 2d array */
+    position: relative;
+    width: 1710px;
+    height: 960px;
+    background: url("../assets/motherboard_3.png") 0px 0px;
+}
+
+.day {
+    /*day bits */
+    position: absolute; /* in order to display atop the sprite */
+    top: 210px;
+    width: 30px;
+    height: 30px;
+    background-color: #006400; /* motherboard green; initially invisible */
+}
+
+.hour {
+    position: absolute;
+    top: 450px;
+    width: 30px;
+    height: 30px;
+    background-color: #006400; /* motherboard green; initially invisible */
+}
+
+.minute {
+    position: absolute;
+    top: 690px;
+    width: 30px;
+    height: 30px;
+    background-color: #006400; /* motherboard green; initially invisible */
+}
+
+#day0 {
+    left: 120px;
+}
+
+#day1 {
+    left: 210px;
+}
+
+#day2 {
+    left: 300px;
+}
+
+
+
+#hour0 {
+    left: 990px;
+}
+
+#hour1 {
+    left: 1080px;
+}
+
+#hour2 {
+    left: 1170px;
+}
+
+#hour3 {
+    left: 1260px;
+}
+
+#hour4 {
+    left: 1350px;
+}
+
+#minute0 {
+    left: 120px;
+}
+
+#minute1 {
+    left: 210px;
+}
+
+#minute2 {
+    left: 300px;
+}
+
+#minute3 {
+    left: 390px;
+}
+
+#minute4 {
+    left: 480px;
+}
+
+#minute5 {
+    left: 570px;
+}
